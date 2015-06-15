@@ -44,7 +44,7 @@ PictureSchema.statics.random = function(cb) {
   }.bind(this));
 };
 
-var Picture = mongoose.model('Charlie', PictureSchema);
+var Picture = mongoose.model('Pictures', PictureSchema);
 
 function sendYo(yo)
 {
